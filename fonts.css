@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("./public/fonts/GothamPro.woff") format("woff"),
+             url("./public/fonts/GothamPro.ttf") format("truetype"),
+             url("./public/fonts/GothamPro.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("./public/fonts/GothamPro-Bold.woff") format("woff"),
+             url("./public/fonts/GothamPro-Bold.ttf") format("truetype"),
+             url("./public/fonts/GothamPro-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gotham Pro";
+    src: url("./public/fonts/GothamPro-Medium.woff") format("woff"),
+             url("./public/fonts/GothamPro-Medium.ttf") format("truetype"),
+             url("./public/fonts/GothamPro-Medium.woff2") format("woff2"),
+             url("./public/fonts/GothamPro-Medium.eot?#iefix") format("embedded-opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Operator Mono";
+    src: url("./public/fonts/OperatorMono-Medium.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:"Operator Mono";
+    src: url("./public/fonts/OperatorMono-MediumItalic.otf") format("opentype");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+body {
+    font-family: "Gotham Pro", Gotham Fallback, Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
